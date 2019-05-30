@@ -3,7 +3,7 @@
 
 
 function format_bytes($size) {
-    $units = array(' B', ' KB', ' MB', ' GB', ' TB');
+    $units = array(' B', ' KB', ' MB', ' GB', ' TB', 'BP');
     for ($i = 0; $size >= 1024 && $i < 4; $i++) {
         $size /= 1024;
     }
