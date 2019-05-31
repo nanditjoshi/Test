@@ -1,0 +1,47 @@
+Checkout code from git URL 
+
+Git clone URL FROM GIT 
+
+List all your branches 
+
+git branch –a 
+
+Checkout the branch you want to use. 
+
+git checkout BRANCHNAME 
+
+Git pull (to get all new updates) 
+
+ 
+
+Merge the tow repository in git hub using commands. 
+
+Open Terminal. 
+
+Change the current working directory to your local project. 
+
+Check out the branch you wish to merge to. Usually, you will merge into master. 
+
+$ git checkout master (The branch in which you want to merge (TO BRANCH)) 
+
+Pull the desired branch from the upstream repository. This method will retain the commit history without modification. 
+
+$ git pull https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git BRANCH_NAME (FROM BRANCH) 
+
+If there are conflicts, resolve them. For more information, see "Addressing merge conflicts". 
+
+Commit the merge. 
+
+Review the changes and ensure they are satisfactory. 
+
+Push the merge to your GitHub repository. 
+
+$ git push origin master (TO BRANCH) 
+
+ 
+
+https://help.github.com/en/articles/merging-an-upstream-repository-into-your-fork 
+
+ 
+
+ 
