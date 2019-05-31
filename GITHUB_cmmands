@@ -12,6 +12,9 @@ git checkout BRANCHNAME
 
 Git pull (to get all new updates) 
 
+git commit -m "Change titles and styling on homepage"  
+
+git push –force 
  
 
 Merge the tow repository in git hub using commands. 
